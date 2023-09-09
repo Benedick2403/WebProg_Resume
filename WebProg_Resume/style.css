@@ -1,0 +1,46 @@
+.whole{
+    display: grid;
+    gap: 0em;
+    grid-template-columns: 1.5fr 5fr 0fr;
+    border: 1px solid black;
+    width: 80rem;
+    font-family:'Courier New', Courier, monospace;
+    margin: auto;
+
+}
+
+.left{
+    border: 1px solid black;
+    background-color: #1c2535;
+    color: white;
+    padding-left: .5em;
+
+}
+
+img{
+    border-radius: 100rem;
+    height: 14rem;
+    margin: 1em auto;
+    display: block;
+}
+
+h3{
+    border-bottom: 1px solid white;
+}
+
+h4{
+    font-weight: bolder;
+}
+
+.mainInfo{
+    color: #323b4c;
+}
+
+.top, .midInfo{
+    padding-left: 3em;
+    border-bottom: 3px solid black;
+}
+
+.btmInfo{
+    padding-left: 3em;
+}
